@@ -1,0 +1,54 @@
+.body-container {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.header-block{
+    box-sizing: border-box;
+    height: 72px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 16px 8px;
+    background-color: #fff;
+}
+
+.logo-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-sign-in{
+    width: 78px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sign-in:hover{
+    background-color: #f8f8f8;
+}
+
+.header-interaction-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.basket{
+    height: 22px;
+    width: 19px;
+}
+
+@media screen and (max-width: 768px){
+    .basket{
+        display: none;
+    }
+}
+
