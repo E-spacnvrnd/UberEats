@@ -1,4 +1,5 @@
-.body-container {
+.body {
+    font-family: 'Roboto', sans-serif;
     background-color: #f2f2f2;
     margin: 0;
 }
@@ -13,6 +14,12 @@
     background-color: #fff;
 }
 
+@media (min-width: 992px){
+    .header-block{
+        padding: 16px 61px 16px 61px;
+    }
+}
+
 .logo-block{
     display: flex;
     align-items: center;
@@ -20,6 +27,7 @@
 }
 
 .btn-sign-in{
+    font-family: 'Roboto', sans-serif;
     width: 78px;
     height: 40px;
     background-color: #fff;
@@ -46,9 +54,27 @@
     width: 19px;
 }
 
+.container-btn-up{
+    position: fixed;
+    bottom: 24px;
+    right: 16px
+}
+
+.btn-up {
+    height: 80px;
+    width: 80px;
+}
+
 @media screen and (max-width: 768px){
     .basket{
         display: none;
     }
+
+    .btn-up {
+        height: 64px;
+        width: 64px;
+    }
 }
+
+
 
